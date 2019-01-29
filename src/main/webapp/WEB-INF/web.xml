@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>MainP</servlet-name>
+        <servlet-class>servlets.MainPController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ArticleController</servlet-name>
+        <servlet-class>servlets.ArticleController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PageController</servlet-name>
+        <servlet-class>servlets.PageController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ContactController</servlet-name>
+        <servlet-class>servlets.ContactController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GaleryController</servlet-name>
+        <servlet-class>servlets.GaleryController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainP</servlet-name>
+        <url-pattern>/sozav.net</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ArticleController</servlet-name>
+        <url-pattern>*.ch</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PageController</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ContactController</servlet-name>
+        <url-pattern>/contacts</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GaleryController</servlet-name>
+        <url-pattern>/galereya</url-pattern>
+    </servlet-mapping>
+</web-app>

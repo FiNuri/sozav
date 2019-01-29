@@ -1,0 +1,93 @@
+* {box-sizing:border-box}
+
+@media screen and (max-width: 800px){
+    .slideshow-container2{
+        display: none;
+    }
+}
+
+/* Slideshow container */
+.slideshow-container2 {
+    max-width: 100%;
+    position: relative;
+    margin-top: 30px;
+    border:1px solid #333;
+    background-color: #f1f1f1;
+}
+
+/* Hide the images by default */
+.mySlides2 {
+    height: auto;
+    overflow: auto;
+    max-width: 100%;
+    padding: 5px;
+}
+
+
+
+/* Caption text */
+.text2 {
+    float: left;
+    width: 70%;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+/* The dots/bullets/indicators */
+.dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active2, .dot2:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade2 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade2 {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade2 {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.imgwrapper2{
+    margin-top: 20px;
+    box-shadow:5px 10px 18px #888888;
+    border: 2px solid silver;
+    width: 20%;
+    max-width: 200px;
+    float: left;
+    margin-left: 30px;
+    height: auto;
+    overflow: hidden;
+    padding: 0px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.imgwrapper2 img{
+    height: 100%;
+    margin-bottom: -5px;
+}
+.topname2{
+    text-align: center;
+    background-color: #4CAF50;
+}
